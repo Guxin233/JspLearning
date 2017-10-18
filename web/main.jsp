@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<h1>使用 GET 方法读取数据</h1>
+<h1>读取Form表单的数据</h1>
 <ul>
     <li><p><b>站点名:</b>
         <%= request.getParameter("name")%>
@@ -22,5 +22,19 @@
     </p></li>
 </ul>
 
+<br>
+<h1>解决中文乱码的问题</h1>
+<ul>
+    <li><p><b>站点名:</b>
+        <%
+            // 解决中文乱码的问题
+            String name = new String((request.getParameter("name")).getBytes("ISO-8859-1"),"UTF-8");
+        %>
+        <%=name%>
+    </p></li>
+    <li><p><b>网址:</b>
+        <%= request.getParameter("url")%>
+    </p></li>
+</ul>
 </body>
 </html>
