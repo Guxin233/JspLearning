@@ -88,11 +88,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HttpResponseHeaderInfo.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HttpResponseHeaderInfo.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/HttpResponseHeaderInfo.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
               <caret line="18" column="25" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SetHttpStatusCode.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/SetHttpStatusCode.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -134,6 +144,8 @@
         <option value="$PROJECT_DIR$/web/getHeaderNames.jsp" />
         <option value="$PROJECT_DIR$/web/HttpRequestHeaderInfo.jsp" />
         <option value="$PROJECT_DIR$/web/HttpResponseHeaderInfo.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/SetHttpStatusCode.jsp" />
+        <option value="$PROJECT_DIR$/web/SetHttpStatusCode.jsp" />
       </list>
     </option>
   </component>
@@ -265,6 +277,12 @@
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\WEB Learning\TomcatTest\web" />
+      <recent name="F:\WEB Learning\TomcatTest\web\WEB-INF" />
+    </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.23">
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
@@ -727,12 +745,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1508295502031</updated>
-      <workItem from="1508295505215" duration="6546000" />
+      <workItem from="1508295505215" duration="7100000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6546000" />
+    <option name="totallyTimeSpent" value="7100000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -853,6 +871,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="18" column="25" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SetHttpStatusCode.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
           <folding />
         </state>
       </provider>

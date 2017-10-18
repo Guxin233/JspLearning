@@ -13,7 +13,7 @@
 </head>
 <body>
 <h2>HTTP 响应头</h2>
-<h2>自动刷新实例</h2>
+<h2>每隔5秒自动刷新实例</h2>
 <%
     // 设置每隔5秒自动刷新
     response.setIntHeader("Refresh", 5);

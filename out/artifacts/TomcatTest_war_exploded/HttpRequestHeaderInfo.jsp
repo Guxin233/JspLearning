@@ -9,7 +9,7 @@
 <%@ page import="java.io.*,java.util.*" %>
 <html>
 <head>
-    <title>HTTP请求信息头</title>
+    <title>HTTP 请求头</title>
 </head>
 <body>
 <h2>HTTP 请求头</h2>
