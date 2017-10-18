@@ -9,10 +9,10 @@
 <%@ page import="java.io.*,java.util.*" %>
 <html>
 <head>
-    <title>HTTP信息头</title>
+    <title>HTTP 请求头</title>
 </head>
 <body>
-<h2>HTTP 头部请求实例</h2>
+<h2>HTTP 请求头</h2>
 <table width="100%" border="1" align="center">
     <tr bgcolor="#949494">
         <th>Header Name</th><th>Header Value(s)</th>

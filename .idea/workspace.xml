@@ -38,7 +38,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
               <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-              <folding />
+              <folding>
+                <marker date="1508309289589" expanded="true" signature="225:355" placeholder="..." />
+                <marker date="1508309289589" expanded="true" signature="272:347" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,11 +78,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getHeaderNames.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/getHeaderNames.jsp">
+      <file leaf-file-name="HttpRequestHeaderInfo.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/HttpRequestHeaderInfo.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="20" column="51" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="51" />
+            <state relative-caret-position="270">
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpResponseHeaderInfo.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/HttpResponseHeaderInfo.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -119,6 +132,8 @@
         <option value="$PROJECT_DIR$/web/date.jsp" />
         <option value="$PROJECT_DIR$/web/main.jsp" />
         <option value="$PROJECT_DIR$/web/getHeaderNames.jsp" />
+        <option value="$PROJECT_DIR$/web/HttpRequestHeaderInfo.jsp" />
+        <option value="$PROJECT_DIR$/web/HttpResponseHeaderInfo.jsp" />
       </list>
     </option>
   </component>
@@ -133,6 +148,13 @@
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -695,6 +717,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d492416f-0e29-4cdb-9d3b-4a3831868e6e" name="Default" comment="" />
@@ -702,12 +727,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1508295502031</updated>
-      <workItem from="1508295505215" duration="5583000" />
+      <workItem from="1508295505215" duration="6546000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5583000" />
+    <option name="totallyTimeSpent" value="6546000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -759,7 +784,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-          <folding />
+          <folding>
+            <marker date="1508309289589" expanded="true" signature="225:355" placeholder="..." />
+            <marker date="1508309289589" expanded="true" signature="272:347" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -813,10 +841,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/getHeaderNames.jsp">
+    <entry file="file://$PROJECT_DIR$/web/HttpRequestHeaderInfo.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="20" column="51" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="51" />
+        <state relative-caret-position="270">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/HttpResponseHeaderInfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="25" />
           <folding />
         </state>
       </provider>
