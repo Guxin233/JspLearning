@@ -39,7 +39,7 @@
     String content2="响应客户请求次数 : "+serviceVar;
     String content3="销毁次数 : "+destroyVar;
 %>
-<h1>菜鸟教程 JSP 测试实例</h1>
+<h1>测试JSP生命周期</h1>
 <p><%=content1 %></p>
 <p><%=content2 %></p>
 <p><%=content3 %></p>

@@ -13,7 +13,7 @@
 <body>
 <%
     // 设置错误代码，并说明原因
-    response.sendError(998, "只要998!!!" );
+    response.sendError(998, "这是自定义的状态码，只要998!!!" );
 %>
 </body>
 </html>
