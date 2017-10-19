@@ -7,21 +7,18 @@ import java.io.IOException;
 /**
  * Created by Gu Xin on 2017/10/18.
  */
-public class LogFilter implements javax.servlet.Filter {
+public class TestFilter implements Filter {
 
     public void init(FilterConfig config) throws ServletException {
         // 获取初始化参数
-        String site = config.getInitParameter("Site");
+        String name = config.getInitParameter("Name");
         // 输出初始化参数
-        System.out.println("网站名称: " + site);
+        System.out.println("Name属性: " + name);
     }
 
     @Override
-    public void  doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws java.io.IOException, ServletException {
-        // 输出请求的URL
-        HttpServletRequest req = (HttpServletRequest) request;
-        String url = req.getRequestURI();
-        System.out.println("LogFilter --> 请求的URL：" + url);
+    public void  doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
+        System.out.println("被TestFilter过滤了！");
 
         // 把请求传回过滤链
         chain.doFilter(request,response);

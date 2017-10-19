@@ -30,5 +30,15 @@
     <input type="submit" value="提交" />
 </form>
 
+<br>
+<br>
+<h1>GET提交表单并设置Cookies</h1>
+<!-- 提交到Main.jsp页面，参数在URL中 -->
+<form action="SetCookies.jsp" method="GET">
+    站点名: <input type="text" name="name"><br />
+    网址: <input type="text" name="url" /><br />
+    <input type="submit" value="提交" />
+</form>
+
 </body>
 </html>
